@@ -1,0 +1,9 @@
+go 1.23.3
+
+use (
+	./cgroup_skb
+	./ippkg
+	./kprobe
+	./tcx
+	./xdp
+)

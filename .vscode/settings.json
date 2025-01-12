@@ -1,0 +1,13 @@
+{
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "args": []
+        }
+    },
+    "go.toolsEnvVars": {
+        "GOOS": "linux",   // 目标操作系统为 Linux
+        "GOARCH": "amd64"  // 目标架构为 amd64
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build with Cygwin",
+        "type": "shell",
+        "command": "gcc",
+        "args": [
+          "${file}",
+          "-o",
+          "${fileDirname}/${fileBasenameNoExtension}.exe"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"]
+      },
+      {
+        "label": "Run on Linux",
+        "type": "shell",
+        "command": "bash",
+        "args": ["-c", "echo 'Running on Linux'"],
+        "problemMatcher": [],
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        }
+    }
+    ]
+  }
+  

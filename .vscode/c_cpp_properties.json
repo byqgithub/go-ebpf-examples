@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Cygwin",
+            "includePath": [
+                "${workspaceFolder}/**",
+                 "D:/software/cygwin64/usr/include"
+            ],
+            "compilerPath": "D:\\software\\cygwin64\\bin\\gcc.exe",
+            "intelliSenseMode": "linux-gcc-x64",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        }
+    ],
+    "version": 4
+}
