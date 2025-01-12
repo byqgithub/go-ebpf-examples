@@ -1,0 +1,7 @@
+kprobepin
+map_in_map
+kprobe_percpu
+fentry
+tcprtt_sockops
+tracepoint_in_c
+tracepoint_in_go
